@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>Document</title>
 </head>
 <body>
-{% if a > 0 and b > 0 %}
-    <p>{{a}}</p>
-{% else %}
-<p>{{b}}</p>
-{% endif %}
+    <div id="content">
+        <h2>THIS IS WW</h2>
+        <img src="{% static 'img/Zolo.jpg' %}" alt="Zolo"/>
+    </div>
 </body>
 </html>
